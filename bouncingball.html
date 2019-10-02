@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Bouncing Ball by RevSpennicus</title>
+    <script>
+        var clicked = 0;
+		function changeColor() {
+			switch (clicked) {
+            		case 0:
+				document.getElementById("ball").style.background = "linear-gradient(-55deg, #66CDAA, #7FFFD4, #66CDAA)";
+            			document.getElementById("ball").style.filter = "drop-shadow(3px 3px 3px #58B294)";
+				document.body.style.backgroundColor = "hsl(0deg, 100%, 95%)";
+				clicked = 1;
+				break;
+			case 1:
+				document.getElementById("ball").style.background = "linear-gradient(-55deg, #FF35C7, #FF76C4, #FF25C8)";
+            			document.getElementById("ball").style.filter = "drop-shadow(3px 3px 3px #C71585)";
+				document.body.style.backgroundColor = "hsl(120deg, 100%, 95%)";
+				clicked = 0;
+				break;
+			}	
+		}
+	</script>
+	<style>
+		body {
+		 background-color: hsl(120deg, 100%, 95%);
+			}
+		div {
+		 position: relative; 
+		 margin: auto;
+		 border-radius: 50%;
+		 }
+		#ball {
+		 background: linear-gradient(-55deg, #FF35C7, #FF76C4, #FF25C8); /* colors chosen by Haley <3 */
+		 opacity: 0.7;
+		 filter: drop-shadow(3px 3px 3px #C71585);
+		 animation-name: bounce;
+		 animation-duration: 3s;
+		 animation-iteration-count: infinite;
+		 animation-timing-function: cubic-bezier(0, 0, 0.44, 1.3);
+		 display: flex;
+		 top: 25px;
+		 width: 100px;
+		 height: 100px;
+		 }
+		 @keyframes bounce {
+		 50% {
+			 top: 500px;
+			 width: 150px;
+			 height: 50px;
+			}
+		 }
+		 button {
+			 position: absolute;
+			 animation-name: still;
+			 animation-duration: 1s;
+			 top: 50px;
+			 left: 50px;
+			 width: 100px;
+			 height: 50px;
+			 color: greenyellow;
+			 background-color: purple;
+			 font-weight: bold;
+			 animation-iteration-count: infinite;
+		 }
+		 button:hover {
+			 color: purple;
+			 background-color: green;
+		 }
+	 </style>
+    </head>
+    <body>
+	    <div id="ball"></div>
+        <button onclick="changeColor()">Click Me!</button>
+    </body>
+</html>
