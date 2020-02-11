@@ -44,7 +44,7 @@ ul, li
 	background-color: #000000!important;
 }
 
-#mw-footer-container
+#mw-footer-container, .ts-container
 {
 	border-top: solid 1px #261D2F!important;
 }
