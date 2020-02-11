@@ -21,7 +21,7 @@ div, table
 	color: #e6e6e6!important;
 }
 
-a
+a, .toctogglelabel
 {
 	color:#52d053!important;
 }
@@ -42,4 +42,3 @@ ul, li
 {
 	border-bottom: 4px solid #261D2F!important;
 }
-
