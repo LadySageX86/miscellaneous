@@ -1,3 +1,4 @@
+#kopimi
 #wolfram, wiki, pyttsx3 and wx need to be installed with pip if you don't already have them
 import wolframalpha
 import wikipedia
