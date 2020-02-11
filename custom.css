@@ -37,3 +37,9 @@ ul, li
 {
 	background-color: #000000!important;
 }
+
+.selected, .firstHeading
+{
+	text-decoration: none!important;
+}
+
