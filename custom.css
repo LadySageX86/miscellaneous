@@ -56,7 +56,7 @@ main, header, ul, li, td
 {
 	color: #e6e6e6!important;
 }
-.image, .infobox :first-child :nth-child(2) td, .vertical-navbox :first-child
+img
 {
 	background-color: #52d053!important;
 }
