@@ -27,7 +27,7 @@ div, table
 	color: #e6e6e6!important;
 }
 
-a, .toctogglelabel
+a, .toctogglelabel, .glossary-link-internal
 {
 	color:#52d053!important;
 }
