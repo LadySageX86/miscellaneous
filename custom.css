@@ -15,6 +15,12 @@ body
 	background-color: #000000!important;
 }
 
+h1, h2, span, p
+{
+	font-family: "Space Mono for Powerline", monospace!important;
+	font-style: italic!important;
+}
+
 div, table
 {
 	background-color: #000000!important;
