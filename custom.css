@@ -44,6 +44,11 @@ ul, li
 	background-color: #000000!important;
 }
 
+#mw-content
+{
+	border: solid 1px #261D2F!important;
+}
+
 #mw-footer-container, .ts-container
 {
 	border-top: solid 1px #261D2F!important;
