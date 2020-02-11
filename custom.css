@@ -40,6 +40,6 @@ ul, li
 
 .selected, .firstHeading
 {
-	text-decoration: none!important;
+	border-bottom: 4px solid #261D2F!important;
 }
 
