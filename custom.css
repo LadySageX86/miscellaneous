@@ -36,7 +36,7 @@ h2[id^="mp-"], th
 	background-color: #261D2F!important;
 	color: #e6e6e6!important;
 }
-main, header, ul, li, td
+main, header, code, ul, li, td
 {
 	background-color: #000000!important;
 }
