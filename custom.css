@@ -1,7 +1,6 @@
 /* custom.css by spencer smith
  * for use on wikipedia and other wikimedia commons websites
  * kopimi */ 
-
 body
 {
 	background-color: #000000!important;
@@ -9,62 +8,55 @@ body
 	font-family: "Space Mono for Powerline", monospace!important;
 	font-style: italic!important;
 }
-
 .MainPageBG
 {
 	background-color: #000000!important;
 }
-
-h1, h2, span, p, #siteSub, a
+h1, h2, span, p, #siteSub, a, code
 {
 	font-family: "Space Mono for Powerline", monospace!important;
 	font-style: italic!important;
 }
-
 div, table
 {
 	background-color: #000000!important;
 	color: #e6e6e6!important;
 }
-
-a, .toctogglelabel, .glossary-link-internal
+a, .toctogglelabel, .glossary-link-internal, code
 {
 	color:#52d053!important;
 }
-
 .glossary-link-internal
 {
 	border-bottom: 1px dashed #40304f!important;
 }
-
 h2[id^="mp-"], th
 {
 	border: 1px solid #261D2F!important;	
 	background-color: #261D2F!important;
 	color: #e6e6e6!important;
 }
-
 main, header, ul, li, td
 {
 	background-color: #000000!important;
 }
-
 #mw-content
 {
 	border: solid 1px #261D2F!important;
 }
-
 #mw-footer-container, .ts-container
 {
 	border-top: solid 1px #261D2F!important;
 }
-
 .selected, .firstHeading
 {
 	border-bottom: 4px solid #261D2F!important;
 }
-
 .tocnumber, td
 {
 	color: #e6e6e6!important;
+}
+.infobox td:first-of-type
+{
+	background-color: #52d053!important;
 }
