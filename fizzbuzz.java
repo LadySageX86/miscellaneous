@@ -3,6 +3,7 @@
 *   By Spencer Smith    *
 * linkhylian8@gmail.com *
 ************************/
+// kopimi
 
 class Fizzbuzz
 {
