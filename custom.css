@@ -1,0 +1,35 @@
+body
+{
+	background-color: #000000!important;
+	color: #e6e6e6!important;
+	font-family: "Space Mono for Powerline", monospace!important;
+	font-style: italic!important;
+}
+
+.MainPageBG
+{
+	background-color: #000000!important;
+}
+
+div, table
+{
+	background-color: #000000!important;
+	color: #e6e6e6!important;
+}
+
+a
+{
+	color:#52d053!important;
+}
+
+h2[id^="mp-"], th
+{
+	border: 1px solid #261D2F!important;	
+	background-color: #261D2F!important;
+	color: #e6e6e6!important;
+}
+
+ul, li
+{
+	background-color: #000000!important;
+}
