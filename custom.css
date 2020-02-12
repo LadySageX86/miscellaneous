@@ -22,7 +22,7 @@ div, table
 	background-color: #000000!important;
 	color: #e6e6e6!important;
 }
-a, .toctogglelabel, .glossary-link-internal, code
+a, .toctogglelabel, .glossary-link-internal, code, #searchInput
 {
 	color:#52d053!important;
 }
@@ -40,7 +40,7 @@ h2[id^="mp-"], th
 	background-color: #261D2F!important;
 	color: #e6e6e6!important;
 }
-main, header, code, ul, li, td
+main, header, code, ul, li, td, #searchInput
 {
 	background-color: #000000!important;
 }
