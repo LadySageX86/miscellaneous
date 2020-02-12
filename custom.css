@@ -22,7 +22,7 @@ div, table
 	background-color: #000000!important;
 	color: #e6e6e6!important;
 }
-a, .toctogglelabel, .glossary-link-internal, code, #searchInput
+a, .toctogglelabel, .glossary-link-internal, code, #searchInput, .button
 {
 	color:#52d053!important;
 }
@@ -30,7 +30,7 @@ a, .toctogglelabel, .glossary-link-internal, code, #searchInput
 {
 	border-bottom: 1px dashed #40304f!important;
 }
-.infobox th div
+.infobox th div, .button
 {
 	background-color: #261D2F!important;
 }
