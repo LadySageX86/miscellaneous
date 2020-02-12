@@ -30,6 +30,10 @@ a, .toctogglelabel, .glossary-link-internal, code
 {
 	border-bottom: 1px dashed #40304f!important;
 }
+.infobox th
+{
+	background-color: #40304f!important;
+}
 h2[id^="mp-"], th
 {
 	border: 1px solid #261D2F!important;	
