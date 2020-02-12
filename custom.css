@@ -64,3 +64,7 @@ img
 {
 	background-color: #e6e6e6!important;
 }
+.branding-box a span img
+{
+	filter: invert(1);
+}
