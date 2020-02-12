@@ -64,7 +64,7 @@ img
 {
 	background-color: #e6e6e6!important;
 }
-.branding-box a span img
+.branding-box a span img, .post-content .footer-content h2 img
 {
 	filter: invert(1);
 }
