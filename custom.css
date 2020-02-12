@@ -12,7 +12,7 @@ body
 {
 	background-color: #000000!important;
 }
-h1, h2, span, p, #siteSub, a, code
+h1, h2, span, p, #siteSub, a, code, pre
 {
 	font-family: "Space Mono for Powerline", monospace!important;
 	font-style: italic!important;
@@ -40,7 +40,7 @@ h2[id^="mp-"], th
 	background-color: #261D2F!important;
 	color: #e6e6e6!important;
 }
-main, header, code, ul, li, td, #searchInput
+main, header, code, ul, li, td, #searchInput, pre
 {
 	background-color: #000000!important;
 }
@@ -56,7 +56,7 @@ main, header, code, ul, li, td, #searchInput
 {
 	border-bottom: 4px solid #261D2F!important;
 }
-.tocnumber, td
+.tocnumber, td, pre
 {
 	color: #e6e6e6!important;
 }
