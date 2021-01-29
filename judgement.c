@@ -1,7 +1,7 @@
 // judgement.c
 // A simple program demonstrating the RNG of
 // Mr. Game and Watch's Judgement move in
-// Super Smash Bros. Melee for Nintendo Gamecube
+// Super Smash Bros. Melee for the Nintendo Gamecube
 
 #include <stdio.h>
 #include <stdlib.h>
