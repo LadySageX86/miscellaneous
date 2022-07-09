@@ -1,7 +1,7 @@
 # Shell script for creating virtual microphone to stream audio in Discord and other programs
 # Requires pulseaudio/pavucontrol
-OUTPUT= #Your output device
-INPUT= #Your input device
+OUTPUT= #Your output sink
+INPUT= #Your input source
 pactl load-module module-null-sink sink_name=transmit
 pacmd 'update-sink-proplist transmit device.description="Signals to Transmit"'
 pacmd 'update-source-proplist transmit.monitor device.description="Monitor of Signals to Transmit"'
