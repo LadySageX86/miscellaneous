@@ -1,5 +1,3 @@
-// Spenito's Simple HTML Generator
-
 #include <stdio.h>
 #include <ctype.h>
 
