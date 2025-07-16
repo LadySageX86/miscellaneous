@@ -1,8 +1,8 @@
-/************************
-*     FIZZBUZZ-JAVA     *
-*   By Spencer Smith    *
-* linkhylian8@gmail.com *
-************************/
+/*****************************
+*       FIZZBUZZ-JAVA        *
+*       By Sage Smith        *
+* sagemistressmods@gmail.com *
+******************************/
 // kopimi
 
 class Fizzbuzz
