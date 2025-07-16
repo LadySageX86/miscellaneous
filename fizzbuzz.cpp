@@ -1,8 +1,8 @@
-/************************
-*     FIZZBUZZ-C++      *
-*   By Spencer Smith    *
-* linkhylian8@gmail.com *
-************************/
+/*****************************
+*         FIZZBUZZ-C++       *
+*        By Sage Smith       *
+* sagemistressmods@gmail.com *
+******************************/
 // kopimi
 
 #include <iostream>
